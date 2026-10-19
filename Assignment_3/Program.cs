@@ -22,7 +22,166 @@
             // Can a sealed method be overridden? --> No, a sealed method cannot be overridden in derived classes.
             #endregion
 
+            #region Part 02 — Practical 
+            //String driver = "Ahmed Mohamed";
+            //Console.WriteLine("-------------------------------------------------------------------");
+            //Console.WriteLine($"Driver: {driver}");
+            //Console.WriteLine("-------------------------------------------------------------------");
+            //DeliveryCenter deliveryCenter = new DeliveryCenter();
+            //deliveryCenter.CenterName = driver;
 
+            //string trackingCode;
+            //string description;
+            //decimal weight;
+            //decimal deliveryFee;
+            //string city;
+            //string street;
+            //int number;
+            //DeliveryAddress destination;
+            //bool isAdded;
+
+            //Console.WriteLine("Enter Standard Shipment Details:");
+            //Console.Write("Tracking Code: ");
+            //trackingCode = Console.ReadLine()!;
+            //Console.Write("Description: ");
+            //description = Console.ReadLine()!;
+            //Console.Write("Weight: ");
+            //weight = decimal.Parse(Console.ReadLine()!);
+            //Console.Write("Delivery Fee: ");
+            //deliveryFee = decimal.Parse(Console.ReadLine()!);
+            //Console.Write("City: ");
+            //city = Console.ReadLine()!;
+            //Console.Write("Street: ");
+            //street = Console.ReadLine()!;
+            //Console.Write("Bulding Number: ");
+            //number = int.Parse(Console.ReadLine()!);
+            //destination = new DeliveryAddress(city, street, number);
+            //StandardShipment standardShipment = new StandardShipment(trackingCode, description, weight, deliveryFee, destination);
+            //isAdded = deliveryCenter.AddShipment(standardShipment);
+            //if (isAdded)
+            //{
+            //    Console.WriteLine("StandardShipment added successfully.");
+            //    Console.WriteLine();
+
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Failed to add Standard shipment.");
+            //    Console.WriteLine();
+
+            //}
+
+            //Console.WriteLine("Enter Express Shipment Details:");
+            //Console.Write("Tracking Code: ");
+            //trackingCode = Console.ReadLine()!;
+            //Console.Write("Description: ");
+            //description = Console.ReadLine()!;
+            //Console.Write("Weight: ");
+            //weight = decimal.Parse(Console.ReadLine()!);
+            //Console.Write("Delivery Fee: ");
+            //deliveryFee = decimal.Parse(Console.ReadLine()!);
+            //Console.Write("City: ");
+            //city = Console.ReadLine()!;
+            //Console.Write("Street: ");
+            //street = Console.ReadLine()!;
+            //Console.Write("Bulding Number: ");
+            //number = int.Parse(Console.ReadLine()!);
+            //destination = new DeliveryAddress(city, street, number);
+            //Console.Write("ExtraFee: ");
+            //decimal extraFee = decimal.Parse(Console.ReadLine()!);
+            //ExpressShipment expressShipment = new ExpressShipment(trackingCode, description, weight, deliveryFee, destination, extraFee);
+            //isAdded = deliveryCenter.AddShipment(expressShipment);
+            //if (isAdded)
+            //{
+            //    Console.WriteLine("Express Shipment added successfully.");
+            //    Console.WriteLine();
+
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Failed to add Expressshipment.");
+            //    Console.WriteLine();
+
+            //}
+
+            //Console.WriteLine("Enter International Shipment Details:");
+            //Console.Write("Tracking Code: ");
+            //trackingCode = Console.ReadLine()!;
+            //Console.Write("Description: ");
+            //description = Console.ReadLine()!;
+            //Console.Write("Weight: ");
+            //weight = decimal.Parse(Console.ReadLine()!);
+            //Console.Write("Delivery Fee: ");
+            //deliveryFee = decimal.Parse(Console.ReadLine()!);
+            //Console.Write("City: ");
+            //city = Console.ReadLine()!;
+            //Console.Write("Street: ");
+            //street = Console.ReadLine()!;
+            //Console.Write("Bulding Number: ");
+            //number = int.Parse(Console.ReadLine()!);
+            //destination = new DeliveryAddress(city, street, number);
+            //Console.Write("CustomsFee: ");
+            //decimal customsFee = decimal.Parse(Console.ReadLine()!);
+            //Console.Write("DestinationCountry: ");
+            //String destinationCountry = Console.ReadLine()!;
+            //InternationalShipment internationalShipment = new InternationalShipment(trackingCode, description, weight, deliveryFee, destination, destinationCountry, customsFee);
+            //isAdded = deliveryCenter.AddShipment(internationalShipment);
+            //if (isAdded)
+            //{
+            //    Console.WriteLine("International Shipment added successfully.");
+            //    Console.WriteLine();
+
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Failed to add International shipment.");
+            //    Console.WriteLine();
+
+            //}
+
+            //Console.WriteLine("-------------------------------------------------------------------");
+            //Console.WriteLine("All Shipments in the Delivery Center:");
+            //Console.WriteLine("-------------------------------------------------------------------");
+            //deliveryCenter.PrintAllShipments();
+            //Console.WriteLine();
+
+            //Console.WriteLine("-------------------------------------------------------------------");
+            //Console.WriteLine("All Shipments using Delivery Helper:");
+            //Console.WriteLine("-------------------------------------------------------------------");
+            //Console.WriteLine("standardShipment:");
+            //DeliveryHelper.PrintShipmentDetails(standardShipment);
+            //Console.WriteLine();
+            //Console.WriteLine("expressShipment:");
+            //DeliveryHelper.PrintShipmentDetails(expressShipment);
+            //Console.WriteLine();
+            //Console.WriteLine("internationalShipment:");
+            //DeliveryHelper.PrintShipmentDetails(internationalShipment);
+            //Console.WriteLine();
+
+            //Console.WriteLine("-------------------------------------------------------------------");
+            //Console.WriteLine("Updating Weight... ");
+            //Console.WriteLine("-------------------------------------------------------------------");
+            //Console.WriteLine($"original weight of standardShipment: {standardShipment.Weight} KG");
+            //standardShipment.UpdateWeight(5);
+            //Console.WriteLine($"updated weight of standardShipment: {standardShipment.Weight} KG");
+            //standardShipment.UpdateWeight(5, 0.5m);
+            //Console.WriteLine($"updated weight of standardShipment After Packing: {standardShipment.Weight} KG");
+            //Console.WriteLine();
+
+
+            //Shipment[] shipments = new Shipment[3];
+            //shipments[0] = standardShipment;
+            //shipments[1] = expressShipment;
+            //shipments[2] = internationalShipment;
+            //Console.WriteLine("-------------------------------------------------------------------");
+            //Console.WriteLine("Printing Using Shipment[]...");
+            //Console.WriteLine("-------------------------------------------------------------------");
+            //foreach (Shipment shipment in shipments)
+            //{
+            //    shipment.PrintShipment();
+            //    Console.WriteLine();
+            //}
+            #endregion
         }
     }
 }

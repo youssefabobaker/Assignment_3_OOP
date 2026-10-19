@@ -1,11 +1,11 @@
 ﻿
 namespace Assignment_3
 {
-    internal class DeliveryHelper
+    internal static class DeliveryHelper
     {
-        //void PrintShipmentDetails(Shipment shipment)
-        //{
-        //    shipment.PrintShipment();
-        //}
+        public static void PrintShipmentDetails(Shipment shipment)
+        {
+            shipment.PrintShipment();
+        }
     }
 }

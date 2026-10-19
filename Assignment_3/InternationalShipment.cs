@@ -1,5 +1,5 @@
 ﻿
-namespace Assignment_2
+namespace Assignment_3
 {
     internal class InternationalShipment : Shipment
     {
@@ -53,6 +53,11 @@ namespace Assignment_2
             Console.WriteLine($"Destination Country: {DestinationCountry}");
             Console.WriteLine($"Customs Fee: ${CustomsFee}");
             Console.WriteLine($"Estimated Cost: ${EstimatedCost}");
+        }
+
+        public virtual void GenerateCustomsReport()
+        {
+            Console.WriteLine($"Customs Report for Shipment {TrackingCode}:");
         }
 
     }

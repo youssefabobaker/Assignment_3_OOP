@@ -1,5 +1,5 @@
 ﻿
-namespace Assignment_2
+namespace Assignment_3
 {
     internal class ExpressShipment : Shipment
     {
